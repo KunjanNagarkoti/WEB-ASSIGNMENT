@@ -1,0 +1,25 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+
+
+}
+
+.top{
+	background-color: #0079B9;
+	height:35px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+label.logo{
+	/*background-color: red;*/
+	float: left;
+ 	padding-left: 30px;
+ 	
+  	border-radius: 50%;
+
+}
