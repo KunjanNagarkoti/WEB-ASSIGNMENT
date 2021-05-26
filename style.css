@@ -1,79 +1,96 @@
-
-*{
-	padding: 0px;
-	margin: 0px;
-
-
-}
-
-.top{
-	background-color: #0079B9;
-	height:35px;
-	color: white;
-	text-align: center;
-	padding-top: 10px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
 
-label.logo{	
-	float: left;
- 	padding-left: 30px;
- 	border-radius: 50%;
-
+.top {
+  background-color: #0079B9;
+  height: 35px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
 }
-nav{
+body {
+  background-color: #eeeee4;
+}
+
+
+label.logo {
+  float: left;
+  padding-left: 30px;
+  border-radius: 50%;
+}
+
+nav {
   background: #e4e4e4;
   width: 100%;
   font-family: cursive;
-
 }
-nav ul{
+
+
+nav ul {
   float: right;
   margin-right: 120px;
-
 }
-nav ul li{
+
+nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 2px;
-
 }
+
 a:link {
   text-decoration: none;
 }
-nav ul li a{
+
+nav ul li a {
   color: black;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
 }
-nav ul li a:hover{
-	background-color:#2596BE;
-	border-radius: 15px;
-	color:white;
-	transition-duration: 0.7s
-  text-shadow: 5px 15px 15px black; 
 
+nav ul li a:hover {
+  background-color: #2596BE;
+  border-radius: 15px;
+  color: white;
+  transition-duration: 0.7s text-shadow: 5px 15px 15px black;
 }
-a.home{
-	
-	border: 2px solid darkred;
-	border-radius: 15px;
-	
 
+a.home {
+  border: 2px solid darkred;
+  border-radius: 15px;
 }
-a.home:hover{
-	background-color:#2596BE;
-	border-radius: 15px;
-	color:white;
-	transition-duration: 0.7s;
-  
-  
+
+a.home:hover {
+  background-color: #2596BE;
+  border-radius: 15px;
+  color: white;
+  transition-duration: 0.7s;
 }
-body{
-	background-color: #eeeee4;
+.container{
+    border:4px solid black;
+    height: 300px;
+    margin-top: 90px;
+    padding-top: 20px; 
+    display: flex;
+    justify-content: space-around;  
 }
- /*ham burger cssdiv*/
+#contain-1{
+    border: 4px solid red;
+}
+#contain-2{
+    border: 4px solid green;
+}
+
+#contain-3{
+    border: 4px solid blue;
+}
+
+#contain-4{
+    border: 4px solid hotpink;
+}
 
 
 
@@ -85,32 +102,26 @@ body{
 
 
 
+
+
+footer{
+  background-color: #0079B9;
+}
+
+/*ham burger cssdiv*/
 
 @media screen and (max-width:500px) {
-  body {
-    
+  body {}
+  .ham {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 6px 0;
   }
-   .ham {
-  width: 30px;
-  height: 4px;
-  background-color: black;
-  margin: 6px 0;
+  label.logo {
+    display: none;
+  }
+  .top {
+    font-size: 14px;
+  }
 }
-
-
-label.logo{
-          display: none;
-
-
-}
-.top{
-  font-size: 14px;
-
- 
-}
-}
-
-
-
-
-
