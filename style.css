@@ -318,7 +318,7 @@ font-size : 18px;
  .SRContainer{
   display : grid;
   grid-gap : 2rem;
-  grid-template-columns : 0.8fr  1fr;
+  grid-template-columns : 1.2fr  1fr;
   padding: 20px;
 }
 
@@ -336,7 +336,7 @@ font-size : 18px;
 }
 .RContainer p{
 
-  column-count: 2;
+
   color:#252525;
 }
 
@@ -382,10 +382,12 @@ font-size : 18px;
 
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+    word-break: break-all;
 
   }
 
@@ -395,12 +397,15 @@ font-size : 18px;
     position: fixed;
     top: 1;
   }
+  nav{
+    position: relative !important;
+  }
   
-  ul{
+  nav ul{
     position: fixed;
     width: 100%;
     height: 100%;
-    background: #e4e4e4;
+    background-color: #e4e4e4;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -427,10 +432,9 @@ display : none;
 }
 
 #head {
-display : inline;
+display : inline-flex;
 }
 .topp {
-  width: 100%;
 text-align : center;
 font-size : 12px;
 
@@ -474,29 +478,44 @@ width: 100%;
 .SRContainer{
   grid-template-columns: 1fr;
   margin-top: 20px;
+
 }
+.RContainer{
+  column-fill: balance;
+}
+
 .ContactContainer{
   grid-template-columns: 1fr;
   text-align: center;
 }
 .PCointainer{
+    grid-template-columns: 1fr;
   padding: 0px;
   margin: 0px;
 }
-PCointainer
+.LContainer img{
+    grid-template-columns: 1fr;
+
+  padding: 10px;
+}
 .gallery2 img{
   width:100%;
   width: 435px;
 }
 
+.SRLogo{
+  padding: 20px;
+}
+.footcon{
+  height: 150px !important;
 
-
-
-
-
-.refrence{
-
- 
+}
+.Follow{
+  height: 90px !important;
 }
 
- 
+
+.row ,.column1{
+  display: none;
+}
+}
