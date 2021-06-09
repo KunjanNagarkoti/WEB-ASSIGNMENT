@@ -170,7 +170,7 @@ padding: 5px;
 text-align : center;
 }
 #aside div {
-height : 220px;
+height : 250px;
 }
 .Follow {
 margin : auto;
@@ -186,6 +186,8 @@ text-align : center;
 div form {
 padding : 5px;
 float : right;
+margin-right: 50px;
+
 }
 fieldset {
 border : darkred solid 3px;
