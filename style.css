@@ -15,7 +15,12 @@ box-sizing: border-box;
 display : grid;
 align-items : center;
 gap : 2px;
-grid-template-areas : 'head head head head head' 'navbar navbar navbar navbar' 'section1 section1 section1 section1' 'section section section section' 'aside aside aside aside' 'footer footer footer footer ';
+grid-template-areas : 'head head head head head'
+                      'navbar navbar navbar navbar' 
+                     'section1 section1 section1 section1' 
+                      'section section section section' 
+                      'aside aside aside aside' 
+                    'footer footer footer footer ';
 }
 .item {
 padding : 12px 23px;
@@ -126,10 +131,8 @@ display:block;
 
 }
 
-marquee {
-
-font-size: 30px;
-font-weight: bold;
+.title_blog{
+  text-align: center;
 }
 .sr{
   text-align: center;
@@ -417,6 +420,7 @@ font-size : 18px;
   }
   nav{
     position: relative !important;
+   
   }
   
   nav ul{
